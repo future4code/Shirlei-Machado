@@ -1,0 +1,30 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color:#ecd0c8
+}
+
+}
+section {
+  height: 100%;
+  width: 100%;
+ }
+
+ img{
+     width: 100px;
+     height: 300px;
+ }
+
+ h1, 
+ h4{
+    font-family: 'Montserrat', sans-serif;
+    text-align:left, justify;
+    float: left;
+    padding: 8px;
+ }
+
+ 
+
+  
