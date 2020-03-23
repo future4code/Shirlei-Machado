@@ -24,6 +24,13 @@ input {
 button:focus {
     color: white;
 }
+button:hover {
+color:rgb(196, 189, 189);
+}
+button:active{
+    color:white ;
+}
+
 
 img {
     width: 100px;
