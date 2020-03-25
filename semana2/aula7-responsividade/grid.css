@@ -1,0 +1,39 @@
+#contentgrid{
+
+}
+#header{
+    width: 100vw; 
+    height: 80px;
+    background-color: red;
+}
+#griditens{
+
+}
+.cx1, .cx4{
+    width: 10em;
+    height: 10em;   
+    background-color: blue;
+}
+.cx2, .cx5{
+    width: 10em;
+    height: 10em;   
+    background-color: yellow;
+}
+.cx3, .cx6{
+    width: 10em;
+    height: 10em;   
+    background-color: green;
+
+}
+.cx7, .cx8{
+    width: 10em;
+    height: 10em;   
+    background-color: black;
+    color: white;
+}
+
+.cx9, .cx10{
+    width: 10em;
+    height: 10em;   
+    background-color: white;
+}
