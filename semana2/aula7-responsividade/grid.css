@@ -1,0 +1,72 @@
+div {
+    border: 1px solid #313B3E;
+    gap: 20px;
+    
+   
+
+}
+
+#header{
+    background-color: red;
+    grid-column: span 6;
+    
+    
+    
+}
+
+#container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr)
+    grid-template-rows: 1fr 1fr 1fr 2fr 1fr;
+    
+ }
+
+
+
+#item1, #item4{
+     
+    background-color: blue;
+    grid-column: span 2;
+    
+}
+
+#item2, #item5{
+    
+    background-color: yellow;
+    grid-column: span 2;
+   
+}
+
+#item3, #item6{
+      
+    background-color: green;
+    grid-column: span 2;
+    
+
+}
+
+#item7, #item8 {
+       
+    background-color: black;
+    color: white;
+    grid-column: span 3;
+}
+
+#item9{
+     
+    background-color: white;
+    grid-row: 5;   
+    grid-column: span 2;
+}
+
+#item10, #item11{
+    background-color: white;
+    grid-column: span 2;
+}
+
+
+
+@media screen and (min-device-width : 320px) and (max-device-width : 420px) 
+ 
