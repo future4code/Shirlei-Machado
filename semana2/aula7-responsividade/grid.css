@@ -1,39 +1,72 @@
-#contentgrid{
+div {
+    border: 1px solid #313B3E;
+    gap: 20px;
+    
+   
 
 }
+
 #header{
-    width: 100vw; 
-    height: 80px;
     background-color: red;
+    grid-column: span 6;
+    
+    
+    
 }
-#griditens{
 
-}
-.cx1, .cx4{
-    width: 10em;
-    height: 10em;   
+#container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr)
+    grid-template-rows: 1fr 1fr 1fr 2fr 1fr;
+    
+ }
+
+
+
+#item1, #item4{
+     
     background-color: blue;
+    grid-column: span 2;
+    
 }
-.cx2, .cx5{
-    width: 10em;
-    height: 10em;   
+
+#item2, #item5{
+    
     background-color: yellow;
+    grid-column: span 2;
+   
 }
-.cx3, .cx6{
-    width: 10em;
-    height: 10em;   
+
+#item3, #item6{
+      
     background-color: green;
+    grid-column: span 2;
+    
 
 }
-.cx7, .cx8{
-    width: 10em;
-    height: 10em;   
+
+#item7, #item8 {
+       
     background-color: black;
     color: white;
+    grid-column: span 3;
 }
 
-.cx9, .cx10{
-    width: 10em;
-    height: 10em;   
+#item9{
+     
     background-color: white;
+    grid-row: 5;   
+    grid-column: span 2;
 }
+
+#item10, #item11{
+    background-color: white;
+    grid-column: span 2;
+}
+
+
+
+@media screen and (min-device-width : 320px) and (max-device-width : 420px) 
+ 
