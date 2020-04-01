@@ -41,6 +41,7 @@ if(numero % 2 === 0) {
 
 //Exercício 3
 // mensagem de erro: VM121:13 Uncaught ReferenceError: mensagem is not defined at <anonymous>:13:13
+//pq console.log ta fora do escopo.
 
  const numero1 = prompt("Digite o primeiro número.")
  const numero2 = prompt("Digite o próximo número.")
@@ -95,11 +96,116 @@ if((numero1 === numero2) && (numero2>numero3)) {
 
 //c. 
 
+const numero1 = Number(prompt("Digite o primeiro número."));
+const numero2 = Number(prompt("Digite o próximo número."));
+const numero3 = Number(prompt("Digite o próximo número."));
 
+if(numero1 === numero2 && numero1 === numero3 && numero2 === numero3){
+  console.log("insira numeros diferentes")
+}
+else {
+  console.log("OK");
+}
 
 
 
 //Exercício 5
+//a. https://drive.google.com/drive/u/0/my-drive
+//b. 
+
+let ossos = prompt("Possuem ossos? [s/n]");
+ switch (ossos) {
+   case "s":
+     console.log("vertebrados")
+    break;
+    
+     case "n":
+     console.log("invertebrados")
+    break;
+  }
+
+  let pelo = prompt("Possuem pelos? [s/n]");
+  switch (pelo) {
+    case "s":
+      console.log("mamifero")
+      break;
+      
+    case "n":
+      console.log("Não é um mamífero, pode ser uma ave!")
+      break;
+  }
+
+  let racional = prompt ("É um animal racional? [s/n]");
+  switch (racional) {
+    case "s":
+        console.log("Mamífero não humano")
+        break;
+
+    case "n":
+        console.log("Ser Humano!") 
+        break;
+  }
+
+
+
+
+
+
+
+const animalOsso = prompt("O animal tem ossos? [s/n]")
+    if(animalOsso === "s"){
+const animalPelo = prompt("O animal tem pelos? [s/n]")
+    if(animalPelo === "s"){
+const animalRacional = prompt("O animal é racional? [s/n]")
+    if(animalRacional === "s"){
+console.log("O animal é um ser humano")
+
+
+
+
+const animalPelo = prompt("O animal tem pelos? [s/n]");
+const animalRacional = prompt("O animal é racional? [s/n]");
+
+
+
+
+const ossos = prompt("O animal tem ossos? [s/n]")
+if(ossos === "s"){
+    const pelos = prompt("O animal tem pelos? [s/n]")
+    if(pelos === "s"){
+        const racional = prompt("O animal é racional? [s/n]")
+        if(racional === "s"){
+            console.log("O animal é um ser humano")
+        }
+        else{
+            console.log("O animal é um mamífero não humano")
+        }
+    }
+    else{
+        const penas = prompt("O animal tem penas? [s/n]")
+        if(penas === "s"){
+            console.log("O animal é uma ave")
+        }
+        else{
+            const terreste = prompt("O animal é terreste? [s/n]")
+            if(terreste === "s"){
+                const anfibio = prompt("O animal passa parte da vida em ambiente aquático? [s/n]")
+                if(anfibio==="s"){
+                    console.log("O animal é um anfíbio")
+                }
+                else{
+                    console.log("O animal é um réptil")
+                }
+            }
+            else{
+                console.log("O animal é um peixe")
+            }
+        }
+    }
+}
+else{
+    console.log("Animal invertebrado")
+
 
 
 
