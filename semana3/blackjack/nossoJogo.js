@@ -11,16 +11,35 @@
  * 
  */
 
- console.log('Bem vindo ao jogo de BlackJack!');
+      console.log("Bem vindo ao jogo de cartas BlackJack!")
+         let cartasPc= "computador - cartas:", cartasUsuario= "usuario - cartas:", pontosPc=0, pontosUsuario=0;
 
-   if(confirm("Quer iniciar uma nova rodada?")){
-      console.log("Vamos jogar");
-   } else{
-      console.log("É isso, tchau!")
-   }
-   const carta = comprarCarta();
-   console.log(carta.texto)
-   console.log(carta.valor)
+            if(confirm("Vamos iniciar uma nova rodada?")){
+                  for(let i=0; i<2; i++){
+                     let carta= comprarCarta();
+                        cartasPc+=carta.texto+'';
+                        pontosPc+=carta.valor;
+                        carta=comprarCarta();
+                        cartasUsuario+=carta.texto+'';
+                        pontosUsuario+=carta.valor;                  
+                  }
+            
+      console.log(cartasUsuario+ '- pontuação' +pontosUsuario);
+      console.log(cartasPc+ '-pontuação' +pontosPc);
+            
+            if((pontosUsuario>pontosPc) && pontosUsuario<= 21 || (pontosPc>21 && pontosUsuario<=21)){
+      console.log("O usuário ganhou! :)")         
+            
+            }  else if((pontosPc>pontosUsuario) && pontosPc<=21 || (pontosUsuario>21 && pontosPc<=21)){
+      console.log("Computador ganhou! :(")     
+
+            }else{
+       console.log("Empate")        
+            }
+
+            }else{
+      console.log("It's over!")         
+            }
 
    
      
