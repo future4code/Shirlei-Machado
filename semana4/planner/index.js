@@ -1,7 +1,15 @@
-function teste(){
-    console.log("Hello word")
-    const nomeDaTarefa = document.getElementById("novaTarefa").value
-    document.getElementById("espacotexto").innerHTML="<p>"+nomeDaTarefa+"</p>"
+function adicionarTarefa(){
+   function teste(){
+       const meuInput= document.getElementById("novaTarefa").Value;
+       const diaSemana = document.getElementById("planner").value;
+        if(meuInput !==""){
+                switch(diaSemana){
+                    case "segunda":
+                        document.getElementById("segunda").innerHTML+="<li>"+meuInput+"</li>"
+                }
+        }
 
-}
-teste()
+
+       
+    }
+   
