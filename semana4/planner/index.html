@@ -8,12 +8,11 @@
     <link href="index.css" type="text/css" rel="stylesheet" />
     <title>MyPlanner</title>
   </head>
-  <body backgroud="img/bg-01.png">
-      <header id="Titulo">Meu PLANNER</header>
+  <body>
     <div>
-      <label for="Nova Tarefa"></label>
-      <input type="text" name="novaTarefa" id="novaTarefa">
-      <select id="diaSemana" name="diaSemana">
+      <input type="text" placeholder="Digite sua tarefa" id="input-tarefa">
+      <select id="select-dia">
+        <option value=""></option>
         <option value="Segunda">Segunda</option>
         <option value="Terça">Terça</option>
         <option value="Quarta">Quarta</option>
@@ -24,39 +23,14 @@
       </select>
       <button onclick="adcionarItem()">Criar Tarefa</button>
     </div>
-    <hr>
-    <main>
-      <div id="espacotexto"></div>
-          <div>
-            Segunda
-            <ul></ul>
-          </div>
-          <div>
-            Terça
-            <ul></ul>
-          </div>
-          <div>
-            Quarta
-            <ul></ul>
-          </div>
-          <div>
-            Quinta
-            <ul></ul>
-          </div>
-          <div>
-            Sexta
-            <ul></ul>
-          </div>
-          <div>
-            Sábado
-            <ul></ul>
-          </div>
-          <div>
-            Domingo
-            <ul></ul>
-          </div>
-    </main>
-
-    </div>
+          <div class="espacotexto">
+          <div id="Segunda" class="dia-semana">Segunda</div>
+          <div id="Terça" class="dia-semana">Terça</div>
+          <div id="Quarta" class="dia-semana">Quarta</div>
+          <div id="Quinta" class="dia-semana">Quinta</div>
+          <div id="Sexta" class="dia-semana">Sexta</div>
+          <div id="Sabado" class="dia-semana">Sábado</div>
+          <div id="Domingo" class="dia-semana">Domingo</div>
+        </div>
   </body>
 </html>
