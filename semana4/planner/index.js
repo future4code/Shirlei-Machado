@@ -1,15 +1,8 @@
-function adicionarTarefa(){
-   function teste(){
-       const meuInput= document.getElementById("novaTarefa").Value;
-       const diaSemana = document.getElementById("planner").value;
-        if(meuInput !==""){
-                switch(diaSemana){
-                    case "segunda":
-                        document.getElementById("segunda").innerHTML+="<li>"+meuInput+"</li>"
-                }
-        }
+function adcionarItem(){
+    let textoTarefa = document.getElementById("input-tarefa").value;
+    let diaSemana = document.getElementById("select-dia").value;
+    document.getElementById(diaSemana).innerHTML += `<p> ${textoTarefa}</p> `
+    document.getElementById("input-tarefa").value = ""
+    document.getElementById("select-dia").value = ""
+}
 
-
-       
-    }
-   
