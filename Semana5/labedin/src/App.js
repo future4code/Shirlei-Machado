@@ -5,6 +5,10 @@ import ImagemButton from './components/ImagemButton/ImagemButton';
 import CardPequeno from './components/CardPequeno/CardPequeno';
 import FotoPerfil from './imagens/eu.jpg';
 import FotoEmail from './imagens/email.png';
+import FotoAddress from './imagens/address.png';
+import LogoLbn from './imagens/labenulogo.png';
+import LogoUnime from './imagens/unime.png';
+
 
 
 
@@ -24,37 +28,30 @@ function App() {
           texto="Ver mais"
         />
 
-        <div className="box1">
         <CardPequeno
-        fotoEmail={FotoEmail}
-        textoNegrito="Email:"
-        email="schiufreitas@gmail.com"
+        imagem={FotoEmail}
+        textoNegrito="Email: "
+        descricao="schiufreitas@gmail.com "
         />
-        </div>
-
-        <div className="box2">
+                
         <CardPequeno
-        imagem="https://picsum.photos/400/400?a=1"
-        textoNegrito="Endereço:"
-        endereco="Av Labenu"
+        imagem={FotoAddress}
+        textoNegrito="Endereço: "
+        descricao="Av Labenu "
         />
-        </div>
-
-
-
+  
 </div>
-
       <div className="page-section-container">
         <h2>Experiências profissionais</h2>
         <CardGrande 
-          imagem="https://s3.amazonaws.com/future4.com.br/static/headf4-c492117ca2373dc85ca81bf715b3dc2a.png" 
+          imagem= {LogoLbn} 
           nome="Labenu" 
-          descricao="Formando desenvolvedores para o mercado de trabalho!" 
+          descricao="Estudante de Desenvolvimento de Aplicações Web FullStack " 
         />
         
         <CardGrande 
-          imagem="https://imagens.canaltech.com.br/empresas/4418.400.jpg" 
-          nome="NASA" 
+          imagem= {LogoUnime}
+          nome="Unime" 
           descricao="Apontando defeitos." 
         />
       </div>
