@@ -1,7 +1,7 @@
 import React from "react";
 
 
-export class Etapa2 extends React.Component{
+export class Etapa1 extends React.Component{
     render(){
         return <div>
         <h1> ETAPA 2 - Informações do Ensino Superior</h1>
@@ -14,3 +14,5 @@ export class Etapa2 extends React.Component{
         </div>
     }
 }
+
+export default Etapa1;

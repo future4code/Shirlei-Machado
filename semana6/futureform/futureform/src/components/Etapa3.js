@@ -1,7 +1,7 @@
 import React from "react";
 
 
-export class Etapa3 extends React.Component{
+export class Etapa1 extends React.Component{
 
     render() {
       return <div>
@@ -21,3 +21,4 @@ export class Etapa3 extends React.Component{
       </div>
     }
   }
+  export default Etapa1;

@@ -1,6 +1,6 @@
 import React from "react";
 
-export class Etapa4 extends React.Component{
+export class Etapa1 extends React.Component{
     render() {
       return <div>
         <h1>O Formulário Acabou</h1>
@@ -8,3 +8,5 @@ export class Etapa4 extends React.Component{
       </div>
     }
   }
+
+  export default Etapa1;

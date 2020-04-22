@@ -42,8 +42,9 @@ export class Etapa1 extends React.Component{
           <option>Ensino Superior Completo</option>
         </select>
       </label>
-      <button>Próxima Etapa</button>
+      
 
     </div>
   }
 }
+export default Etapa1;
