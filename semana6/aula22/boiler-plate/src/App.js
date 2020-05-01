@@ -64,7 +64,7 @@ class App extends React.Component {
         return tarefa
     }
   })
-  this,this.setState({tarefas:listaDeTarefas})
+  this.setState({tarefas:listaDeTarefas})
 }
   
 
