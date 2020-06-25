@@ -1,0 +1,16 @@
+{
+  "name": "dates-timestamp-moment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node ./build/index.js"
+  },
+  "author": "Shirlei",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^14.0.14",
+    "moment": "^2.27.0",
+    "typescript": "^3.9.5"
+  }
+}
