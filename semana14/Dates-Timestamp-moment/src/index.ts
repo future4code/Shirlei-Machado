@@ -25,7 +25,7 @@ const allEvents: event[] = [
 ]
 
 //2
-let date: moment.Moment = moment("25/06/2020 15:00", "DD/MM/YYYY HH:mm");
+const date: moment.Moment = moment("25/06/2020 15:00", "DD/MM/YYYY HH:mm");
 console.log("Nome:", name)
 console.log("Descrição:", description)
 console.log("Início:", date.format("dddd, DD [de] MM [de] YYYY, HH:mm[h]"))
