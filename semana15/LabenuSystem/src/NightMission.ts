@@ -1,4 +1,5 @@
 import { Mission } from "./Mission";
+import * as moment from 'moment';
 
 class NightMission extends Mission {
     public setName(name: string) {
@@ -10,3 +11,5 @@ class NightMission extends Mission {
     }
 
 }
+
+export const nightMission = new NightMission('1', moment('18/02/2020', 'DD/MM/YYYY'), moment('18/08/2020', 'DD/MM/YYYY'), [], []);
