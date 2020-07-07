@@ -50,9 +50,49 @@ WHERE gender = "male" AND salary > 1000000;
 **Exercício 5**
 * a) Ele mostra a soma por genero e agrupa mostrando os generos disposniveis e seus respectivos valores. 
 
+Essa é a ordem correta. 
 SELECT * FROM Actor 
 WHERE gender = 'female'
 ORDER BY name ASC
 LIMIT 4;
+
+* b)SELECT id, name FROM Actor
+ORDER BY name DESC;
+
+* C)SELECT * FROM Actor
+ORDER BY salary;
+
+* d)SELECT * FROM Actor
+ORDER BY salary DESC
+LIMIT 3;
+
+* e)SELECT AVG(salary), gender FROM Actor
+GROUP BY gender;
+
+**Exercício 6**
+ * a) ALTER TABLE Movie ADD playing_limit_date DATE;
+ * b)ALTER TABLE Movie CHANGE rating rating FLOAT;
+ * c)UPDATE Movie SET playing_limit_date = "2020-12-31" WHERE id = "001"
+ * d)DELETE FROM Movie WHERE id = "001"
+ 
+**Exercício 7**
+* a) 3
+* b)9
+* c)0
+* d)3
+* e)10
+* f)8
+
+**Exercício 8**
+* a)SELECT * FROM Movie ORDER BY title;
+* b)SELECT * FROM Movie ORDER BY title LIMIT 5;
+* c)SELECT * FROM Movie 
+WHERE release_date < CURDATE() 
+ORDER BY release_date DESC 
+LIMIT 3;
+* d)SELECT * FROM Movie 
+ORDER BY rating DESC 
+LIMIT 3;
+ 
 
 
