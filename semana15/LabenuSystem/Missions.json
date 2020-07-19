@@ -1,0 +1,93 @@
+[
+  {
+    "id": "1",
+    "startDate": "2020-01-18T03:00:00.000Z",
+    "endDate": "2020-07-18T03:00:00.000Z",
+    "teachers": [
+      {
+        "id": "1",
+        "name": "Goli",
+        "email": "goli@labenu.com,br",
+        "specialties": [
+          "BACKEND",
+          "TYPESCRIPT",
+          "OOP"
+        ]
+      }
+    ],
+    "students": [
+      {
+        "id": "1",
+        "name": "Joãozinho",
+        "email": "joaozinho@gmail.com",
+        "birthDate": "1995-09-18T03:00:00.000Z",
+        "hobbies": [
+          "Ler",
+          "Assistir Filmes"
+        ]
+      },
+      {
+        "id": "2",
+        "name": "Zezinho",
+        "email": "zezinho@gmail.com",
+        "birthDate": "1985-09-10T03:00:00.000Z",
+        "hobbies": [
+          "Comer",
+          "Correr"
+        ]
+      }
+    ],
+    "currentModule": 5,
+    "name": "Belezinha"
+  },
+  {
+    "id": "1",
+    "startDate": "2020-02-18T03:00:00.000Z",
+    "endDate": "2020-08-18T03:00:00.000Z",
+    "teachers": [
+      {
+        "id": "2",
+        "name": "Soter",
+        "email": "soter@labenu.com,br",
+        "specialties": [
+          "CSS",
+          "REACT",
+          "REDUX"
+        ]
+      },
+      {
+        "id": "3",
+        "name": "Darvas",
+        "email": "darvas@labenu.com,br",
+        "specialties": [
+          "BACKEND",
+          "TESTES",
+          "REACT"
+        ]
+      }
+    ],
+    "students": [
+      {
+        "id": "3",
+        "name": "Luizinho",
+        "email": "luizinho@gmail.com",
+        "birthDate": "1990-10-12T03:00:00.000Z",
+        "hobbies": [
+          "Nadar",
+          "Cozinhar"
+        ]
+      },
+      {
+        "id": "4",
+        "name": "Pedrinho",
+        "email": "pedrinho@gmail.com",
+        "birthDate": "2000-03-20T03:00:00.000Z",
+        "hobbies": [
+          "Netflix",
+          "Escrever"
+        ]
+      }
+    ],
+    "name": "Bananinha-na-night"
+  }
+]

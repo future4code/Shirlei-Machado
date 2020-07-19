@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "name": "Goli",
+    "email": "goli@labenu.com,br",
+    "specialties": [
+      "BACKEND",
+      "TYPESCRIPT",
+      "OOP"
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Soter",
+    "email": "soter@labenu.com,br",
+    "specialties": [
+      "CSS",
+      "REACT",
+      "REDUX"
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Darvas",
+    "email": "darvas@labenu.com,br",
+    "specialties": [
+      "BACKEND",
+      "TESTES",
+      "REACT"
+    ]
+  }
+]

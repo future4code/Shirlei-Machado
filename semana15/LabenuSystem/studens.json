@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "name": "Joãozinho",
+    "email": "joaozinho@gmail.com",
+    "birthDate": "1995-09-18T03:00:00.000Z",
+    "hobbies": [
+      "Ler",
+      "Assistir Filmes"
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Zezinho",
+    "email": "zezinho@gmail.com",
+    "birthDate": "1985-09-10T03:00:00.000Z",
+    "hobbies": [
+      "Comer",
+      "Correr"
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Luizinho",
+    "email": "luizinho@gmail.com",
+    "birthDate": "1990-10-12T03:00:00.000Z",
+    "hobbies": [
+      "Nadar",
+      "Cozinhar"
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Pedrinho",
+    "email": "pedrinho@gmail.com",
+    "birthDate": "2000-03-20T03:00:00.000Z",
+    "hobbies": [
+      "Netflix",
+      "Escrever"
+    ]
+  }
+]
