@@ -1,0 +1,23 @@
+[
+  {
+    "name": "João",
+    "birthDate": "10/01/2000",
+    "cpf": "222.333.444-55",
+    "balance": 0,
+    "extract": []
+  },
+  {
+    "name": "Maria",
+    "birthDate": "10/10/1989",
+    "cpf": "212.313.414-55",
+    "balance": 0,
+    "extract": []
+  },
+  {
+    "name": "Shirlei",
+    "birthDate": "14/03/1984",
+    "cpf": "325.251.365.15",
+    "balance": 0,
+    "extract": []
+  }
+]
