@@ -58,7 +58,6 @@ export class createBanda{
 }
 
 export interface BandaInputDTO{
-    id: string;
     name: string;
     music_genre: string;
     responsible: string;

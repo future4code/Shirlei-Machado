@@ -3,6 +3,7 @@ import { Authenticator } from "../services/Authenticator";
 import { UserRole } from "../model/User";
 import { BaseDatabase } from "../data/BaseDatabase";
 import { BandaInputDTO } from "../model/Banda";
+import { BandaBusiness } from "../business/BandaBusiness";
 
 export class BandaController {
     async create(req: Request, res: Response) {
@@ -15,7 +16,7 @@ export class BandaController {
                 throw new Error("Only admin can create bandas")
             }
 
-            if (!req.body.name || !req.body.musicGenre || !req.body.responsible) {
+            if (!req.body.name || !req.body.music_genre || !req.body.responsible) {
                 throw new Error("Empty field(s)")
             }
 
@@ -25,8 +26,8 @@ export class BandaController {
                 responsible: req.body.responsible
             }
 
-            const bandBusiness = new BandaBusiness()
-            await bandBusiness.createBand(input)
+            const bandaBusiness = new BandaBusiness()
+            await bandaBusiness.createBanda(input)
 
             res.status(200).send({ message: "Banda cadastrada" })
         } catch (err) {
@@ -46,7 +47,7 @@ export class BandaController {
                 throw new Error("Empty field(s)")
             }
 
-            const bandBusiness = new BandaBusiness()
+            const bandaBusiness = new BandaBusiness()
             let banda
 
             req.body.id ?

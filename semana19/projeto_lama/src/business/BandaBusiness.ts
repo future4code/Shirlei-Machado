@@ -1,4 +1,3 @@
-
 import { IdGenerator } from "../services/IdGenerator";
 import { BandaInputDTO } from "../model/Banda";
 import { BandaDatabase } from "../data/BandaDataBase";
@@ -6,13 +5,13 @@ import { BandaDatabase } from "../data/BandaDataBase";
 
 export class BandaBusiness {
 
-    async createBand(band: BandaInputDTO) {
+    async createBanda(banda: BandaInputDTO) {
 
         const idGenerator = new IdGenerator()
         const id = idGenerator.generate()
 
         const bandaDatabase = new BandaDatabase()
-        await bandaDatabase.createBanda(id, banda.name, banda.musicGenre, banda.responsible)
+        await bandaDatabase.createBanda(id, banda.name, banda.music_genre, banda.responsible)
     }
 
     async getBandaById(id: string) {
